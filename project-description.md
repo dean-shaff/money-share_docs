@@ -9,12 +9,18 @@ A money share organization is means by which people can get community funded, 0%
 - At the start of the rotation, members agree on the time period and the amount of money they will pay for each time period. In this case, they decide they will pay $100 a piece every month. As there are 60 members, the group decides that the accumulated money will be split between 5 members. Members also decide that for the month after a member receives payment, they will not have to contribute to the pot; in other words, groups at the back of the queue don't pay in. Members are split up into 12 groups of 5.
 - At the end of the first month, members from groups 1 to 11 have all contributed $100, meaning that the organizer is holding on to $5500. Each person in group 1 receives $1100. Group 12 did not contribute, as they were at the back of the queue. Group 1 moves to the back of the queue.
 - At the end of the second month, members from group 2-12 have all contributed $100. Each person in group 2 receives $1100 dollars. Group 1 did not contribute, and now group 2 moves to the back of the queue.
-- This continues for the next ten months. At the end of the rotation, each member has contributed $1100, and they have also received $1100 at one point during the month.
+- This continues for the next ten months. At the end of the rotation, each member has contributed $1100, and they have also received $1100 at one point during the rotation.
 
 A few questions:
 
 - How do we want to deal with a group with uneven numbers? The above example breaks down if the money share has 59 people. I can imagine a few different ways of dealing with it:
   - We create one group of four members. When their turn is up, each member would receive $1375, but they would compensate by paying $125 a month instead of $100
   - Instead of having a single money share, we actually split the group up into 5 smaller ones, 4 with 12 members and 1 with 11 members.
-- Does the money share 
+- Do we intend on taking into account members' need?
 - What do we do if one month someone doesn't pay?
+
+### App Description
+
+The primary purpose of the app is handle the money share's periodic rotation. In other words, it will know which members have to pay (and how much), and which members will be receiving funds at the end of the month (or whatever the time period is).
+
+The app will mainly be a dashboard for the money share organizer. They will be able see who has yet to pay, and who will be receiving funds at the end of the time period. They can also configure and start a new rotation. Non-organizer members will be able to log in to the site to see when their turn is in the queue, and by what date they need to contribute their share. If non-organizers want to start their own money share, they will be able to do so. Both organizers and non-organizers will be able to use the site to configure their notifications. Non-organizer money share members will not have to have an account on the site to be included in a money share. 
